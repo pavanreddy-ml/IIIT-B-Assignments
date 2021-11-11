@@ -48,3 +48,166 @@ The business objectives and goals of data analysis are pretty straightforward.
 The entire assignment is divided into checkpoints to help you navigate. For each checkpoint, you are advised to fill in the tables into the spreadsheet provided in the download segment. The tables are also mentioned under the 'Results Expected'section after each checkpoint. Since this is the first assignment, you have been provided with some additional guidance. Going forward you will be expected to structure and solve the problem by yourself, just like you would be solving problems in real life scenarios.
 
 Important Note: All your code has to be submitted in one Jupyter notebook. For every checkpoint, keep writing code in one well-commented Jupyter notebook which you can submit at the end.
+
+
+FILE DETAILS
+=========
+
+1\. Company details
+
+companies: A table with basic data of companies
+
+Description of Companies Table
+
+|
+
+Attribute
+
+ |
+
+Description
+
+ |
+| --- | --- |
+|
+
+Permalink
+
+ |
+
+Unique ID of company
+
+ |
+|
+
+name
+
+ |
+
+Company name
+
+ |
+|
+
+homepage_url
+
+ |
+
+Website URL
+
+ |
+|
+
+category_list
+
+ |
+
+Category/categories to which a company belongs
+
+ |
+|
+
+status
+
+ |
+
+Operational status
+
+ |
+|
+
+country_code
+
+ |
+
+Country Code 
+
+ |
+|
+
+state_code
+
+ |
+
+State
+
+ |
+
+
+2\. Funding round details: 
+
+rounds2: The most important parameters are explained below:
+
+Description of rounds2 Table
+
+|
+
+Attributes
+
+ |
+
+Description
+
+ |
+| --- | --- |
+|
+
+ company_permalink
+
+ |
+
+Unique ID of company
+
+ |
+|
+
+ funding_round_permalink 
+
+ |
+
+Unique ID of funding round
+
+ |
+|
+
+ funding_round_type
+
+ |
+
+Type of funding -- venture, angel, private equity etc.
+
+ |
+|
+
+ funding_round_code
+
+ |
+
+Round of venture funding (round A, B etc.)
+
+ |
+|
+
+ funded_at
+
+ |
+
+Date of funding
+
+ |
+|
+
+ raised_amount_usd
+
+ |
+
+Money raised in funding (USD)
+
+ |
+
+3. Sector Classification:
+
+mapping.csv: This file maps the numerous category names in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad sector names. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
+
+
+5\. Presentation template (mandatory submission): Download the sample PPT from below. The structure is a suggestion; make sure not to exceed 10 slides. Once your presentation is ready, convert the document in PDF format for submission.
